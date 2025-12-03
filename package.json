@@ -1,0 +1,53 @@
+{
+  "name": "eslint-plugin-graphql-naming",
+  "version": "0.1.0",
+  "description": "ESLint plugin for enforcing GraphQL naming conventions based on file paths",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin",
+    "graphql",
+    "naming",
+    "convention",
+    "fragment",
+    "query",
+    "mutation"
+  ],
+  "author": "sugitat",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sugitat/eslint-plugin-graphql-naming"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "peerDependencies": {
+    "@graphql-eslint/eslint-plugin": ">=3.0.0",
+    "eslint": ">=8.0.0",
+    "graphql": ">=15.0.0"
+  },
+  "devDependencies": {
+    "@graphql-eslint/eslint-plugin": "^4.4.0",
+    "@types/node": "^22.10.2",
+    "eslint": "^9.16.0",
+    "graphql": "^16.9.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
