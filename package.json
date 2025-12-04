@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-graphql-naming",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ESLint plugin for enforcing GraphQL naming conventions based on file paths",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -28,7 +28,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sugitat/eslint-plugin-graphql-naming"
+    "url": "https://github.com/sugitata/eslint-plugin-graphql-naming"
   },
   "engines": {
     "node": ">=18.0.0"
